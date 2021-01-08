@@ -34,6 +34,6 @@ Github Actions depend on following secrets being available:
 
 
 ### Docker Hub
-- https://hub.docker.com/repository/docker/mindreframer/alpine-erlang
-- https://hub.docker.com/repository/docker/mindreframer/alpine-elixir
-- https://hub.docker.com/repository/docker/mindreframer/alpine-elixir-phoenix
+- https://hub.docker.com/repository/docker/mindreframer/alpine-erlang-dind
+- https://hub.docker.com/repository/docker/mindreframer/alpine-elixir-dind
+- https://hub.docker.com/repository/docker/mindreframer/alpine-elixir-phoenix-dind
