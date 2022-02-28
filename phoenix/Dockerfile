@@ -1,10 +1,10 @@
-FROM mindreframer/alpine-elixir-dind:1.11.2
+FROM mindreframer/alpine-elixir-dind:1.13.3
 
 # Important!  Update this no-op ENV variable when this Dockerfile
 # is updated with the current date. It will force refresh of all
 # of the base images and things like `apt-get update` won't be using
 # old cached versions when the Dockerfile is built.
-ENV REFRESHED_AT=2021-01-08
+ENV REFRESHED_AT=2022-01-03
 
 # Install NPM
 RUN \
